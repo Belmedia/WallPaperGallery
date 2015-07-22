@@ -12,10 +12,18 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".WallPaper"
+            android:name=".activities.WallPaper"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.SET_WALLPAPER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.ActivityGallery">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

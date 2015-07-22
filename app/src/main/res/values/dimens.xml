@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="love_margin">4dp</dimen>
+    <dimen name="vertical_spacing">10dp</dimen>
+    <dimen name="fragment_gallery_padding">8dp</dimen>
+    <dimen name="love_dimen">20dp</dimen>
+</resources>

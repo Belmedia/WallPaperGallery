@@ -1,4 +1,4 @@
-package tools.ysapps.com.wallpapergallery;
+package tools.ysapps.com.wallpapergallery.activities;
 
 /**
  * Created by B.E.L on 07/12/2014.
@@ -15,6 +15,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import java.io.IOException;
+
+import tools.ysapps.com.wallpapergallery.ExceptionHandler;
+import tools.ysapps.com.wallpapergallery.R;
 
 /**
  * Wallpaper picker for the Home application. User can choose from
