@@ -30,6 +30,11 @@ public class ActivityGallery extends FragmentActivity {
         }
 
         @Override
+        public CharSequence getPageTitle(int position) {
+            return "Gallery";
+        }
+
+        @Override
         public Fragment getItem(int position) {
             return GalleryFragment.newInstance();
         }
