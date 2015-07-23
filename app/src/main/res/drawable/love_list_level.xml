@@ -3,7 +3,9 @@
     <item
         android:drawable="@drawable/love_empty"
         android:maxLevel="0" />
+
     <item
         android:drawable="@drawable/love_full"
         android:maxLevel="1" />
+
 </level-list>

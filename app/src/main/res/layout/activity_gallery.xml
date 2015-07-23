@@ -2,9 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/backrepeat">
 
-    <android.support.v4.view.ViewPager
+    <tools.ysapps.com.wallpapergallery.system.MyViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -12,9 +13,10 @@
         <android.support.v4.view.PagerTabStrip
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="top" />
+            android:layout_gravity="top"
+            android:textAppearance="@style/PagerTabStripText"/>
 
-    </android.support.v4.view.ViewPager>
+    </tools.ysapps.com.wallpapergallery.system.MyViewPager>
 
 
 </LinearLayout>

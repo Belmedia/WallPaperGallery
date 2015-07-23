@@ -3,5 +3,7 @@
     <dimen name="love_margin">4dp</dimen>
     <dimen name="vertical_spacing">10dp</dimen>
     <dimen name="fragment_gallery_padding">8dp</dimen>
-    <dimen name="love_dimen">20dp</dimen>
+    <dimen name="love_dimen">25dp</dimen>
+    <dimen name="tab_strip_margin">10dp</dimen>
+    <dimen name="pager_margin">15dp</dimen>
 </resources>

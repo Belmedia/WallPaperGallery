@@ -1,4 +1,4 @@
-package tools.ysapps.com.wallpapergallery;
+package tools.ysapps.com.wallpapergallery.system;
 
 import android.app.Application;
 

@@ -1,4 +1,4 @@
-package tools.ysapps.com.wallpapergallery;
+package tools.ysapps.com.wallpapergallery.system;
 
 /**
  * Created by B.E.L on 12/01/2015.

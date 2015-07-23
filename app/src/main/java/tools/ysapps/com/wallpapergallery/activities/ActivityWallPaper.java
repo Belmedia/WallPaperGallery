@@ -16,14 +16,14 @@ import android.widget.ImageView;
 
 import java.io.IOException;
 
-import tools.ysapps.com.wallpapergallery.ExceptionHandler;
+import tools.ysapps.com.wallpapergallery.system.ExceptionHandler;
 import tools.ysapps.com.wallpapergallery.R;
 
 /**
  * Wallpaper picker for the Home application. User can choose from
  * a gallery of stock photos.
  */
-public class WallPaper extends Activity implements View.OnClickListener {
+public class ActivityWallPaper extends Activity implements View.OnClickListener {
 
     Button setWallpaper;
     ImageView wallPaper;
